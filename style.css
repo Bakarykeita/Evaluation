@@ -32,9 +32,11 @@ body {
 
 .buttons {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     justify-content: center;
-    max-width: 420px;
+    width: 100%;
+    max-width: 400px;
     padding: 0 16px;
 }
 
