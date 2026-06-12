@@ -1,3 +1,3 @@
 function afficher(n) {
-    document.getElementById('display').textContent = n;
+    document.getElementById('display').innerHTML = n;
 }
